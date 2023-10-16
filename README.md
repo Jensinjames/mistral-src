@@ -1,8 +1,11 @@
 # Mistral Transformer
 
-This repository contains minimal code to run our 7B model.\
+This repository contains minimal code to run our 7B model.
+
 Blog: [https://mistral.ai/news/announcing-mistral-7b/](https://mistral.ai/news/announcing-mistral-7b/)\
-Discord: [https://discord.com/invite/mistralai](https://discord.com/invite/mistralai)
+Discord: [https://discord.com/invite/mistralai](https://discord.com/invite/mistralai)\
+Documentation: [https://docs.mistral.ai/](https://docs.mistral.ai/)\
+Guardrailing: [https://docs.mistral.ai/usage/guardrailing](https://docs.mistral.ai/usage/guardrailing)
 
 ## Deployment
 
@@ -109,9 +112,34 @@ For this we can choose as chunk size the window size. For each chunk, we thus ne
 ![Chunking](assets/chunking.png)
 
 
-## More Links
+## Integrations and related projects
 
-[Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) and [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1) are also available on Hugging Face.
+
+### Model platforms
+
+- Use Mistral AI in HuggingFace:
+  - [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+  - [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
+- Use Mistral 7B on [Vertex AI](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/community/model_garden/model_garden_pytorch_mistral.ipynb)
+- Use Mistral 7B on [Replicate](https://replicate.com/lucataco/mistral-7b-v0.1)
+- Use Mistral 7B on [Sagemaker Jumpstart](https://aws.amazon.com/blogs/machine-learning/mistral-7b-foundation-models-from-mistral-ai-are-now-available-in-amazon-sagemaker-jumpstart/)
+
+### Applications
+
+- Compare Mistral 7B to Llama 13B on [LLMBoxing](https://llmboxing.com/)
+- Use Mistral 7B in [Dust](https://dust.tt/)
+- Speak to Mistral AI Instruct on [Perplexity labs](https://labs.perplexity.ai/) (warning: deployed version is not [guardrailed](https://docs.mistral.ai/usage/guardrailing)) 
+
+
+### Local deployment
+- [Ollama](https://ollama.ai/library/mistral) local deployment
+- [GGML](https://github.com/ggerganov/ggml) local deployment
+- [TextSynth](https://textsynth.com/pricing.html) local deployment
+
+### Derived models
+
+- [OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
+- and many more !
 
 ## References
 
